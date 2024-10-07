@@ -4,14 +4,6 @@ import { useState, useEffect, ChangeEvent } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
-interface NumberGuessingState {
-    gameStarted: boolean;
-    gameOver: boolean;
-    paused: boolean;
-    targetNumber: number;
-    userGuess: number | string;
-    attempt: number;
-}
 
 const NumberGuessing = (): JSX.Element => {
 
