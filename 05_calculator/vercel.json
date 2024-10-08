@@ -1,0 +1,9 @@
+{
+    "projects": [
+      {
+        "src": "05_calculator",
+        "use": "@vercel/next"
+      }
+    ]
+  }
+  
